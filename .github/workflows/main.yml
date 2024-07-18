@@ -32,6 +32,6 @@ jobs:
           # EXTRA_FOD_LOGIN_OPTS: --socket-timeout=60s
           FOD_RELEASE: 145933
           EXTRA_PACKAGE_OPTS: -bt none 
-          # DO_WAIT: true
-          # DO_EXPORT: true
+          DO_WAIT: true
+          DO_EXPORT: true
           # TOOL_DEFINITIONS: https://ftfy.mycompany.com/tool-definitions/v1/tool-definitions.yaml.zip
