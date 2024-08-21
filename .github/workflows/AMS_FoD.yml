@@ -30,8 +30,8 @@ jobs:
           FOD_USER: ${{secrets.FOD_USER_AMS}}
           FOD_PASSWORD: ${{secrets.FOD_PAT_AMS}}
           # EXTRA_FOD_LOGIN_OPTS: --socket-timeout=60s
-          FOD_RELEASE: 145933
+          FOD_RELEASE: 1251019
           EXTRA_PACKAGE_OPTS: -bt none 
-          DO_WAIT: true
-          DO_EXPORT: true
+          DO_WAIT: false
+          DO_EXPORT: false
           # TOOL_DEFINITIONS: https://ftfy.mycompany.com/tool-definitions/v1/tool-definitions.yaml.zip
