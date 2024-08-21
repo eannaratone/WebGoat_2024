@@ -25,7 +25,7 @@ jobs:
         with:
           sast-scan: true
         env:
-          FOD_URL: https://emea.fortify.com
+          FOD_URL: https://ams.fortify.com
           FOD_TENANT: ${{secrets.FOD_TENANT_AMS}}
           FOD_USER: ${{secrets.FOD_USER_AMS}}
           FOD_PASSWORD: ${{secrets.FOD_PAT_AMS}}
